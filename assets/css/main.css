@@ -218,9 +218,10 @@ input, select, textarea {
 
 	.row {
 		display: flex;
-		flex-wrap: wrap;
+		/* flex-wrap: wrap; */
 		box-sizing: border-box;
 		align-items: stretch;
+		width: 100%;
 	}
 
 		.row > * {
