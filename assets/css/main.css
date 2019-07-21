@@ -1827,6 +1827,8 @@ input, select, textarea {
 /* Feature List */
 
 	.feature-list {
+		display: flex;
+		justify-content: center;
 		max-width: 58em;
 		margin-left: auto;
 		margin-right: auto;
@@ -2966,3 +2968,13 @@ input, select, textarea {
 						}
 
 	}
+
+
+/* footer styles added separately */
+.footer-container {
+	width: 100%;
+}
+
+.footer-items {
+	padding-left: 10%;
+}
