@@ -2976,8 +2976,15 @@ input, select, textarea {
 /* footer styles added separately */
 .footer-container {
 	width: 100%;
+	
 }
 
 .footer-items {
 	padding-left: 10%;
+	width: 30%;
+}
+
+.footer-container section {
+	padding-top: 0;
+	border-top: none;
 }
