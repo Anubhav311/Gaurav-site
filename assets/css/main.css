@@ -1650,6 +1650,9 @@ input, select, textarea {
 		height: 4em;
 		line-height: 4em;
 	}
+	/* .feedback-button {
+		margin-top: 20px;
+	} */
 
 		input[type="button"]:hover,
 		input[type="submit"]:hover,
