@@ -2986,6 +2986,18 @@ input, select, textarea {
 	width: 30%;
 }
 
+.footer-items section {
+	width: 100% !important;
+}
+
+@media only screen and (max-width: 750px) {
+	.footer-items {
+		width: 100% !important;
+	}
+
+
+}
+
 .footer-container section {
 	padding-top: 0;
 	border-top: none;
@@ -3004,5 +3016,14 @@ input, select, textarea {
 		display: inline-block !important;
 		margin-left: 0.7em !important; 
 		padding-left: 0.7em !important;	
+		font-size: 1.5rem !important; 
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.footer-rows {
+		display: flex !important;
+		flex-direction: column !important;
+		padding-left: 2em;
 	}
 }
