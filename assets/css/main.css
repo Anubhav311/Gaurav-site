@@ -2990,3 +2990,19 @@ input, select, textarea {
 	padding-top: 0;
 	border-top: none;
 }
+
+.footer-social-icons {
+	color: white !important; 
+	font-size: 2rem !important; 
+	border-left: 1px solid rgba(255, 255, 255, 0.05) !important; 
+	margin-left: 1em !important; 
+	padding-left: 1em !important;
+}
+
+@media only screen and (max-width: 750px) {
+	.footer-social-icons {
+		display: inline-block !important;
+		margin-left: 0.7em !important; 
+		padding-left: 0.7em !important;	
+	}
+}
