@@ -2077,6 +2077,26 @@ input, select, textarea {
 		padding: 0;
 	}
 
+	#header-about {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		position: relative;
+		height: 24em;
+		background: url("../../images/about_header.jpg") center center;
+		background-size: cover;
+		padding: 0;
+	}
+
 		#header:before {
 			content: '';
 			position: absolute;
@@ -2132,7 +2152,7 @@ input, select, textarea {
 		#nav > ul {
 			display: inline-block;
 			border-radius: 0.35em;
-			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+			box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.25);
 			padding: 0 1.5em 0 1.5em;
 		}
 
