@@ -3027,3 +3027,32 @@ input, select, textarea {
 		padding-left: 2em;
 	}
 }
+
+/* Styling for gallery */
+.gallery-item-container {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+
+.reverse {
+	flex-direction: row-reverse;
+}
+
+.gallery-item-container img {
+	width: 50%;
+	border-radius: 5px;
+}
+
+.gallery-item-text {
+	width: 40%;
+	text-align: left;
+	/* background: red; */
+	color: black;
+}
+
+.gallery-item-text h1 {
+	margin-bottom: 30px;
+	font-size: 2em !important;
+	line-height: 1em;
+}
