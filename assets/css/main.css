@@ -3075,8 +3075,20 @@ input, select, textarea {
 	margin-bottom: 100px;
 }
 
+@media (max-width: 700px) {
+	.gallery-item-container {
+		flex-direction: column;
+	}
+}
+
 .reverse {
 	flex-direction: row-reverse;
+}
+
+@media (max-width: 700px) {
+	.reverse {
+		flex-direction: column;
+	}
 }
 
 .gallery-item-container img {
@@ -3084,11 +3096,24 @@ input, select, textarea {
 	border-radius: 5px;
 }
 
+@media (max-width: 700px) {
+	.gallery-item-container img {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+}
+
 .gallery-item-text {
 	width: 40%;
 	text-align: left;
 	/* background: red; */
 	color: black;
+}
+
+@media (max-width: 700px) {
+	.gallery-item-text {
+		width: 100%;
+	}
 }
 
 .gallery-item-text h1 {
